@@ -1,4 +1,4 @@
-// Función de entrada de datos
+// Funcion de entrada de datos
 function obtenerRespuesta(preguntaTexto) {
   let respuesta;
   const opcionesValidas = ["a", "b", "c", "d"];
@@ -13,7 +13,7 @@ function obtenerRespuesta(preguntaTexto) {
   return respuesta;
 }
 
-// Función de procesamiento del juego
+// Funcion de procesamiento del juego
 function procesarJuego(preguntas) {
   let puntaje = 0;
 
@@ -45,7 +45,7 @@ function procesarJuego(preguntas) {
   alert("¡FELICIDADES! RESPONDISTE CORRECTAMENTE A TODAS LAS PREGUNTAS.");
 }
 
-// Función de inicio del juego
+// Funcion de inicio del juego
 function iniciarJuego() {
   alert("¡TRIVIA! Responde correctamente 10 preguntas y llévate 1 MILLÓN DE DÓLARES!!!");
 
@@ -65,5 +65,4 @@ function iniciarJuego() {
   procesarJuego(preguntas);
 }
 
-// Al iniciar el juego, simplemente llamamos a iniciarJuego
 iniciarJuego();
