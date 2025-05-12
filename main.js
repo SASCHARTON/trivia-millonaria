@@ -13,6 +13,11 @@ function obtenerRespuesta(preguntaTexto) {
   return respuesta;
 }
 
+// Funcion de salida de datos
+function ganar () {
+  alert("¡FELICIDADES! RESPONDISTE CORRECTAMENTE A TODAS LAS PREGUNTAS Y TE GANASTE 1 MILLON DE DOLARES!!!.");
+}
+
 // Funcion de procesamiento del juego
 function procesarJuego(preguntas) {
   let puntaje = 0;
@@ -41,9 +46,10 @@ function procesarJuego(preguntas) {
       return;  // Fin del juego
     }
   }
-
-  alert("¡FELICIDADES! RESPONDISTE CORRECTAMENTE A TODAS LAS PREGUNTAS.");
+  ganar();
 }
+
+
 
 // Funcion de inicio del juego
 function iniciarJuego() {
